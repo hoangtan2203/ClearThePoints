@@ -1,0 +1,64 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+ }
+ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.App .container {
+margin-top: 20px;
+margin-left: 20px;
+width: 400px;
+height: 600px;
+}
+.App .container .point-time{
+  margin-right: 100px;
+}
+.App .container button{
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.App .container .setting{
+  display: flex;
+}
+.App .container .screen-point-balls{
+  position:relative;
+  margin-top: 20px;
+  border: solid 1px black;
+  width: 550px;
+  height: 400px;
+}
+.App .container .screen-point-balls .point-balls{
+  position: absolute;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  width: 40px;
+  height: 40px;
+  border: solid 2px black;
+  border-radius: 100px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.App .container .screen-point-balls .point-balls .number{
+font-weight: 700;
+cursor: pointer;
+}
+.green-text{
+  color: green;
+}
+.red-text{
+  color:red
+}
